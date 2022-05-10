@@ -77,12 +77,20 @@ h6 {
 
 p {
   margin: 0;
+  font-weight: 500;
 }
 
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+hr {
+  background: var(--color-accent);
+  height: 2px;
+  border: none;
+  border-radius: 2px;
 }
 
 /* String tags

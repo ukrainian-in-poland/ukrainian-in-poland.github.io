@@ -9,16 +9,20 @@ html {
 __________________________________________________ */
 
 .header {
+  position: fixed;
+  width: 100%;
   border-radius: 0;
 }
 
 .header__container {
   align-items: center;
   justify-content: space-between;
+  max-width: 1400px;
   height: 60px;
 }
 
 .header__theme-btn {
+  padding: 0;
   color: var(--color);
   font-size: 1.444rem;
   box-shadow: none;
@@ -39,8 +43,64 @@ __________________________________________________ */
 
 .header__navbar__link.active {
   padding: 10px var(--padding);
-  color: #d1d1d1;
+  color: #ffffff;
   background: var(--color-accent);
   border-radius: 30px;
   box-shadow: var(--box-shadow);
+}
+
+/* Main
+__________________________________________________ */
+
+.main {
+  padding-top: calc(var(--margin) + 60px);
+}
+
+.sidebar {
+  margin-left: calc(var(--margin) * 1.5);
+  min-width: 260px;
+}
+
+.sidebar__navbar__item:not(:first-child) {
+  margin-top: calc(var(--margin) / 2);
+}
+
+.sidebar__navbar__link {
+  align-items: center;
+  padding: var(--padding);
+  font-weight: 600;
+}
+
+.sidebar__navbar__link.active {
+  color: #ffffff;
+  background: var(--color-accent);
+}
+
+.sidebar__navbar__link:hover {
+  color: #ffffff;
+  background: var(--color-accent);
+  transition: background-color .3s;
+}
+
+.sidebar__navbar__link__icon {
+  font-size: 1.222rem;
+  font-weight: 400;
+  margin-right: calc(var(--margin) / 2);
+}
+
+.main__content {
+  width: 950px;
+  margin-left: auto;
+}
+
+.main__content__list {
+
+}
+
+.main__content__item {
+  padding: var(--padding);
+}
+
+.main__content__item p {
+  font-weight: 500;
 }
