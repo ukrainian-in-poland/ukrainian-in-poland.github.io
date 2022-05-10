@@ -6,8 +6,8 @@ export const HeaderComponents = (activeLink) => {
     {text: 'Біженцям', link: '#/Refugees/Financial_Assistance'},
   ];
 
-  const i = menuItem.reduce((elem, i) => {
-    if (wrappedHashRouter.get() === i.link) {
+  const i = menuItem.reduce((elem, i, index) => {
+    if (activeLink -1 == index) {
       return elem + `<li class="header__navbar__item">
               <a class="header__navbar__link active" href="${i.link}">${i.text}</a>
             </li>`

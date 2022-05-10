@@ -8,7 +8,8 @@ export const refugeesDatabase = {
       <br>
       <br>
       Щоб отримати 300 злотих допомоги, потрібно подати відповідну заяву до організаційного підрозділу гміни за місцем проживання
-      (часто це та сама установа, де видають PESEL). Дізнатися про найближчий підрозділ соціального забезпечення можна <a href='https://rjps.mpips.gov.pl/RJPS/WJ/start.do?stronaListy=1&liczbaPozycjiLista=20&wersja=1&widocznyPanel=mapa' target='_blank'>тут</a>.`
-    }
+      (часто це та сама установа, де видають PESEL). Дізнатися про найближчий підрозділ соціального забезпечення можна
+      <a href='https://rjps.mpips.gov.pl/RJPS/WJ/start.do?stronaListy=1&liczbaPozycjiLista=20&wersja=1&widocznyPanel=mapa' target='_blank'>тут</a>.`
+    },
   ]
 }
