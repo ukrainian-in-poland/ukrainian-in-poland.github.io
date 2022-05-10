@@ -1,0 +1,24 @@
+/* Wrapped theme
+__________________________________________________ */
+
+/* White */
+
+:root[data-theme='white'] {
+  --color: #1b1b1b;
+  --color-accent: #4f11ba;
+  --background-1: #d1d1d1;
+  --background-2: #ffffff;
+  --border-color: #1d1d1d66;
+  --box-shadow: 0 2px 5px 1px #403c4335;
+}
+
+/* Dark */
+
+:root[data-theme='dark'] {
+  --color: #d1d1d1;
+  --color-accent: #a26af6;
+  --background-1: #1b1b1b;
+  --background-2: #252525;
+  --border-color: #d1d1d166;
+  --box-shadow: 0 2px 5px 1px #00000035;
+}

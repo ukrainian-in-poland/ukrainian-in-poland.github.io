@@ -1,0 +1,40 @@
+/* Wrapped class
+__________________________________________________ */
+
+/* Variables
+__________________________________________________ */
+:root {
+  --breackpoint-xxl: 1350px;
+  --breackpoint-xl: ;
+  --breackpoint-lg: ;
+  --breackpoint-md: ;
+  --breackpoint-sm: ;
+}
+
+/* Class
+__________________________________________________ */
+.container {
+  max-width: var(--breackpoint-xxl);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.w-block {
+  background: var(--background-2);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* Media
+__________________________________________________ */
+
+@media screen and (max-width: 1400px) {
+  .container {
+    padding-right: var(--padding);
+    padding-left: var(--padding);
+  }
+}

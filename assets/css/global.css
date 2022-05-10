@@ -1,0 +1,46 @@
+/* global.css
+__________________________________________________ */
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header
+__________________________________________________ */
+
+.header {
+  border-radius: 0;
+}
+
+.header__container {
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.header__theme-btn {
+  color: var(--color);
+  font-size: 1.444rem;
+  box-shadow: none;
+}
+
+.header__theme-btn:hover {
+  color: var(--color-accent);
+  background: transparent;
+}
+
+.header__navbar__item {
+  font-weight: 600;
+}
+
+.header__navbar__item:not(:first-child) {
+  margin-left: var(--margin);
+}
+
+.header__navbar__link.active {
+  padding: 10px var(--padding);
+  color: #d1d1d1;
+  background: var(--color-accent);
+  border-radius: 30px;
+  box-shadow: var(--box-shadow);
+}
